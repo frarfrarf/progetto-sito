@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Low budget travelling</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <header class="header clearfix">
+            <a href="" class="header_logo">MENU</a>
+            <a href="" class="header_icon-bar">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <ul class="header_menu animate" >
+                <li class="header_menu_item"><a href="index.html">Homepage</a></li>
+                <li class="header_menu_item"><a href="Europa.html">Città europee</a></li>
+                <li class="header_menu_item"><a href="Italia.html">Città italiane</a></li>
+                <li class="header_menu_item"><a href="chi_siamo.html">Chi siamo</a></li>
+                <li class="header_menu_item"><a href="contattaci_html">Contattaci</a></li>
+    
+            </ul>
+    </header> 
+    
+    <section class="citta">
+        <div>
+            <img class ="citta_img" src="https://i.pinimg.com/564x/34/6f/9e/346f9e34da69f78efe1ca81eb80c85f2.jpg" alt="Nature">
+            <div class ="citta_text">
+                <h3>Palermo, Sicilia</h3>
+                    <p>Palermo, capitale della Sicilia, è una città ricca di storia e cultura. Il suo centro storico, con la Cattedrale e i Quattro Canti, mostra influenze normanne e gotiche. I mercati vivaci, come Ballarò, offrono un'esperienza sensoriale unica. Palermo è una destinazione che coniuga una costa suggestiva con una vibrante vita cittadina e una cucina deliziosa.
+                    </p>
+                <h4>Cosa vedere a Palermo?</h4>
+                    <p>1. Cattedrale di Palermo: Un capolavoro di architettura gotica e normanna, con la Cappella Palatina e il Tesoro.
+                    </p>
+                    <p>2. Palazzo dei Normanni: L'antico palazzo reale con la Cappella Palatina e i magnifici mosaici bizantini.
+                    </p>
+                    <p>3. Quattro Canti: Una piazza barocca che segna il centro della città.
+                    </p>
+                    <p>4. Mercato di Ballarò: Un vivace mercato all'aperto con una varietà di prodotti locali.
+                    </p>
+                    <p>5. Chiesa della Martorana: Una chiesa con affreschi bizantini e stile arabo-normanno.
+                    </p>
+            </div> 
+        </div>
+    </section>
+</body>
+
+<footer class="footer">
+        <p> Contattaci tramite il numero 329 417 5783, oppure scrivi all'indirizzo ilariafracesca@gmail.com per maggiori informazioni</p>
+        <p> Copyright - Tieni Ilaria, Tornaghi Francesca</p>
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+    
+    
+    <script>
+        $(document).ready(function(){
+    
+            $(".header_icon-bar").click(function(e){
+    
+                $(".header_menu").toggleClass('is-open');
+                e.preventDefault();
+            })
+    
+        });
+    
+    </script>  

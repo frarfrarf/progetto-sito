@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Low budget travelling</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <header class="header clearfix">
+            <a href="" class="header_logo">MENU</a>
+            <a href="" class="header_icon-bar">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <ul class="header_menu animate" >
+                <li class="header_menu_item"><a href="index.html">Homepage</a></li>
+                <li class="header_menu_item"><a href="Europa.html">Città europee</a></li>
+                <li class="header_menu_item"><a href="Italia.html">Città italiane</a></li>
+                <li class="header_menu_item"><a href="chi_siamo.html">Chi siamo</a></li>
+                <li class="header_menu_item"><a href="contattaci_html">Contattaci</a></li>
+    
+            </ul>
+    </header> 
+    
+    <section class="citta">
+        <div>
+            <img class ="citta_img" src="https://i.pinimg.com/564x/4b/6b/cd/4b6bcdac721aae872714375f50b28a3e.jpg" alt="Nature">
+            <div class ="citta_text">
+                <h3>Costiera Amalfitana, Campania</h3>
+                    <p></p>
+                <h4>Cosa vedere in Costiera Amalfitana?</h4>
+                    <p>1. La Costiera Amalfitana, lungo la costa occidentale dell'Italia, è un paradiso costiero famoso per i suoi villaggi colorati come Amalfi e Positano. Le scogliere a picco sul mare, le strade panoramiche e la deliziosa cucina locale rendono questa zona Patrimonio dell'Umanità UNESCO un luogo magico da esplorare.
+                    </p>
+                    <p>2. Amalfi: Visita la Cattedrale di Sant'Andrea, passeggiando per le strade del centro storico e goditi la vista dal Chiostro del Paradiso.
+                    </p>
+                    <p>3. Positano: Perditi tra le viuzze pittoresche, visita la spiaggia di Fornillo e ammira l'iconica Chiesa di Santa Maria Assunta.
+                    </p>
+                    <p>4. Sorrento: Passeggia per il centro storico, visita la Cattedrale di Sorrento e assapora il limoncello locale.
+                    </p>
+                    <p>5.Sentiero degli Dei: Un trekking panoramico che offre vedute mozzafiato sulla costa e sul mare.
+                    </p>
+            </div> 
+        </div>
+    </section>
+</body>
+
+<footer class="footer">
+        <p> Contattaci tramite il numero 329 417 5783, oppure scrivi all'indirizzo ilariafracesca@gmail.com per maggiori informazioni</p>
+        <p> Copyright - Tieni Ilaria, Tornaghi Francesca</p>
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+    
+    
+    <script>
+        $(document).ready(function(){
+    
+            $(".header_icon-bar").click(function(e){
+    
+                $(".header_menu").toggleClass('is-open');
+                e.preventDefault();
+            })
+    
+        });
+    
+    </script>  

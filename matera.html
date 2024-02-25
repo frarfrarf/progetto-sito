@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Low budget travelling</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <header class="header clearfix">
+            <a href="" class="header_logo">MENU</a>
+            <a href="" class="header_icon-bar">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <ul class="header_menu animate" >
+                <li class="header_menu_item"><a href="index.html">Homepage</a></li>
+                <li class="header_menu_item"><a href="Europa.html">Città europee</a></li>
+                <li class="header_menu_item"><a href="Italia.html">Città italiane</a></li>
+                <li class="header_menu_item"><a href="chi_siamo.html">Chi siamo</a></li>
+                <li class="header_menu_item"><a href="contattaci_html">Contattaci</a></li>
+    
+            </ul>
+    </header> 
+    
+    <section class="citta">
+        <div>
+            <img class ="citta_img" src="https://i.pinimg.com/564x/b4/d7/61/b4d761395afcd0e5995ffdda1a23f2f0.jpg" alt="Nature">
+            <div class ="citta_text">
+                <h3>Matera, Basilicata</h3>
+                    <p>Matera, situata nel sud Italia, è famosa per i suoi antichi sassi, abitazioni rupestri scavate nella roccia. Dichiarata Patrimonio Mondiale dell'Umanità, offre una scenografia unica e una ricca storia millenaria. La Cattedrale di Matera e la Chiesa di San Pietro Caveoso aggiungono al suo fascino, mentre la vivace cultura locale e la cucina lucana completano l'esperienza.
+                    </p>
+                <h4>Cosa vedere a Matera?</h4>
+                    <p>1. Sassi di Matera: L'antico quartiere trogloditico con abitazioni e chiese scavate nella roccia calcarea.
+                    </p>
+                    <p>2. Cattedrale di Matera (Cattedrale di Santa Maria della Bruna): Una maestosa cattedrale romanica con una facciata imponente.
+                    </p>
+                    <p>3. Chiesa di San Pietro Caveoso: Una chiesa rupestre affacciata sui Sassi, con affreschi medievali.
+                    </p>
+                    <p>4. Palombaro Lungo: Un antico serbatoio d'acqua sotterraneo, testimone dell'ingegneria idraulica dell'epoca.
+                    </p>
+                    <p>5. Museo Nazionale d'Arte Medievale e Moderna della Basilicata: Situato in un antico monastero, ospita una collezione d'arte lucana.
+                    </p>
+            </div> 
+        </div>
+    </section>
+</body>
+
+<footer class="footer">
+        <p> Contattaci tramite il numero 329 417 5783, oppure scrivi all'indirizzo ilariafracesca@gmail.com per maggiori informazioni</p>
+        <p> Copyright - Tieni Ilaria, Tornaghi Francesca</p>
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+    
+    
+    <script>
+        $(document).ready(function(){
+    
+            $(".header_icon-bar").click(function(e){
+    
+                $(".header_menu").toggleClass('is-open');
+                e.preventDefault();
+            })
+    
+        });
+    
+    </script>  

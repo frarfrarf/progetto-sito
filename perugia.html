@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Low budget travelling</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <header class="header clearfix">
+            <a href="" class="header_logo">MENU</a>
+            <a href="" class="header_icon-bar">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <ul class="header_menu animate" >
+                <li class="header_menu_item"><a href="index.html">Homepage</a></li>
+                <li class="header_menu_item"><a href="Europa.html">Città europee</a></li>
+                <li class="header_menu_item"><a href="Italia.html">Città italiane</a></li>
+                <li class="header_menu_item"><a href="chi_siamo.html">Chi siamo</a></li>
+                <li class="header_menu_item"><a href="contattaci_html">Contattaci</a></li>
+    
+            </ul>
+    </header> 
+    
+    <section class="citta">
+        <div>
+            <img class ="citta_img" src="https://i.pinimg.com/564x/99/b4/04/99b404ff0a1d37ae03b9adecab282f41.jpg" alt="Nature">
+            <div class ="citta_text">
+                <h3>Perugia, Umbria</h3>
+                    <p>Perugia, nel cuore dell'Umbria, è una città medievale con un fascino unico. Il suo centro storico, con la Fontana Maggiore e il Palazzo dei Priori, offre una vista mozzafiato sulle colline circostanti. La città è arricchita dalla presenza dell'Università e vanta una ricca tradizione artistica espressa nel Museo Nazionale dell'Umbria. Con la sua cucina deliziosa e l'atmosfera storica, Perugia regala un'esperienza autentica.
+                    </p>
+                <h4>Cosa vedere a Perugia?</h4>
+                    <p>1. Fontana Maggiore: Situata in Piazza IV Novembre, è una magnifica fontana medievale.
+                    </p>
+                    <p>2. Palazzo dei Priori: Un palazzo gotico che ospita la Galleria Nazionale dell'Umbria.
+                    </p>
+                    <p>3. Cattedrale di San Lorenzo: Una chiesa con una facciata barocca e affreschi all'interno.
+                    </p>
+                    <p>4. Rocca Paolina: Una fortezza cinquecentesca che oggi ospita mostre e eventi culturali.
+                    </p>
+                    <p>5. Arco Etrusco: Un antico arco che segna l'ingresso alla città vecchia.
+                    </p>
+            </div> 
+        </div>
+    </section>
+</body>
+
+<footer class="footer">
+        <p> Contattaci tramite il numero 329 417 5783, oppure scrivi all'indirizzo ilariafracesca@gmail.com per maggiori informazioni</p>
+        <p> Copyright - Tieni Ilaria, Tornaghi Francesca</p>
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+    
+    
+    <script>
+        $(document).ready(function(){
+    
+            $(".header_icon-bar").click(function(e){
+    
+                $(".header_menu").toggleClass('is-open');
+                e.preventDefault();
+            })
+    
+        });
+    
+    </script>  

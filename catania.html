@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Low budget travelling</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <header class="header clearfix">
+            <a href="" class="header_logo">MENU</a>
+            <a href="" class="header_icon-bar">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <ul class="header_menu animate" >
+                <li class="header_menu_item"><a href="index.html">Homepage</a></li>
+                <li class="header_menu_item"><a href="Europa.html">Città europee</a></li>
+                <li class="header_menu_item"><a href="Italia.html">Città italiane</a></li>
+                <li class="header_menu_item"><a href="chi_siamo.html">Chi siamo</a></li>
+                <li class="header_menu_item"><a href="contattaci_html">Contattaci</a></li>
+    
+            </ul>
+    </header> 
+    
+    <section class="citta">
+        <div>
+            <img class ="citta_img" src="https://i.pinimg.com/564x/2e/bd/ce/2ebdce6a6a339527af1ecced2ced4905.jpg" a" alt="Nature">
+            <div class ="citta_text">
+                <h3>Catania, Sicilia</h3>
+                    <p>Catania, sulla costa orientale della Sicilia, è una città ricca di storia e cultura. Con il suo centro storico Patrimonio dell'Umanità, offre un affascinante mix di architettura barocca, antiche rovine romane e vista sull'Etna. La Cattedrale di Sant'Agata e la Fontana dell'Elefante sono tra le sue icone, mentre le spiagge di sabbia nera aggiungono un tocco di relax. Catania è rinomata anche per la sua cucina siciliana e i vivaci mercati locali.
+                    </p>
+                <h4>Cosa vedere a Catania?</h4>
+                    <p>1. Cattedrale di Sant'Agata: Un'iconica cattedrale con una facciata barocca e affreschi all'interno.
+                    </p>
+                    <p>2. Fontana dell'Elefante: Una caratteristica fontana con un elefante in pietra lavica, simbolo della città.
+                    </p>
+                    <p>3. Via Etnea: La principale via commerciale, ideale per lo shopping e le passeggiate, con vista sull'Etna.
+                    </p>
+                    <p>4. Anfiteatro Romano: Antico teatro romano situato nel cuore della città.
+                    </p>
+                    <p>5. Castello Ursino: Un castello medievale che ospita il Museo Civico.
+                    </p>
+            </div> 
+        </div>
+    </section>
+</body>
+
+<footer class="footer">
+        <p> Contattaci tramite il numero 329 417 5783, oppure scrivi all'indirizzo ilariafracesca@gmail.com per maggiori informazioni</p>
+        <p> Copyright - Tieni Ilaria, Tornaghi Francesca</p>
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+    
+    
+    <script>
+        $(document).ready(function(){
+    
+            $(".header_icon-bar").click(function(e){
+    
+                $(".header_menu").toggleClass('is-open');
+                e.preventDefault();
+            })
+    
+        });
+    
+    </script>  

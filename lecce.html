@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Low budget travelling</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <header class="header clearfix">
+            <a href="" class="header_logo">MENU</a>
+            <a href="" class="header_icon-bar">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <ul class="header_menu animate" >
+                <li class="header_menu_item"><a href="index.html">Homepage</a></li>
+                <li class="header_menu_item"><a href="Europa.html">Città europee</a></li>
+                <li class="header_menu_item"><a href="Italia.html">Città italiane</a></li>
+                <li class="header_menu_item"><a href="chi_siamo.html">Chi siamo</a></li>
+                <li class="header_menu_item"><a href="contattaci_html">Contattaci</a></li>
+    
+            </ul>
+    </header> 
+    
+    <section class="citta">
+        <div>
+            <img class ="citta_img" src="https://i.pinimg.com/564x/a3/d5/83/a3d583a1a80e1a90ec39df120788a336.jpg" alt="Nature">
+            <div class ="citta_text">
+                <h3>Lecce, Puglia</h3>
+                    <p>Lecce, nel Salento, è una gemma barocca con chiese ornate, palazzi storici e piazze affascinanti. La Basilica di Santa Croce, l'anfiteatro romano e la pietra leccese, utilizzata in molti edifici, definiscono la sua bellezza unica. Con una ricca storia artistica e una vibrante atmosfera, Lecce è un'affascinante esperienza nel cuore della Puglia.
+                    </p>
+                <h4>Cosa vedere a Lecce?</h4>
+                    <p>1. Basilica di Santa Croce: Un capolavoro del barocco leccese con una facciata elaborata e dettagli ornamentali.
+                    </p>
+                    <p>2. Piazza del Duomo: Il cuore del centro storico con la Cattedrale di Lecce e il Campanile.
+                    </p>
+                    <p>3. Anfiteatro Romano: Un antico anfiteatro romano nascosto nel tessuto urbano della città.
+                    </p>
+                    <p>4. Piazza Sant'Oronzo: Una vivace piazza dominata dalla Colonna di Sant'Oronzo e dalla Chiesa di Santa Irene.
+                    </p>
+                    <p>5. Chiesa di San Matteo: Una chiesa barocca con una facciata riccamente decorata.
+                    </p>
+            </div> 
+        </div>
+    </section>
+</body>
+
+<footer class="footer">
+        <p> Contattaci tramite il numero 329 417 5783, oppure scrivi all'indirizzo ilariafracesca@gmail.com per maggiori informazioni</p>
+        <p> Copyright - Tieni Ilaria, Tornaghi Francesca</p>
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+    
+    
+    <script>
+        $(document).ready(function(){
+    
+            $(".header_icon-bar").click(function(e){
+    
+                $(".header_menu").toggleClass('is-open');
+                e.preventDefault();
+            })
+    
+        });
+    
+    </script>  

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Low budget travelling</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <header class="header clearfix">
+            <a href="" class="header_logo">MENU</a>
+            <a href="" class="header_icon-bar">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <ul class="header_menu animate" >
+                <li class="header_menu_item"><a href="index.html">Homepage</a></li>
+                <li class="header_menu_item"><a href="Europa.html">Città europee</a></li>
+                <li class="header_menu_item"><a href="Italia.html">Città italiane</a></li>
+                <li class="header_menu_item"><a href="chi_siamo.html">Chi siamo</a></li>
+                <li class="header_menu_item"><a href="contattaci_html">Contattaci</a></li>
+    
+            </ul>
+    </header> 
+    
+    <section class="citta">
+        <div>
+            <img class ="citta_img" src="https://i.pinimg.com/564x/4e/36/09/4e360926c889a9ffd64b875cb05b8332.jpg" alt="Nature">
+            <div class ="citta_text">
+                <h3>Torino, Piemonte</h3>
+                    <p>Torino, nel nord Italia, è una città elegante e storica. Con Piazza Castello e la Mole Antonelliana come icone, ospita il Museo Nazionale del Cinema. La Cappella della Sindone e il Museo Egizio sono luoghi di grande importanza. Torino, ricca di cultura e tradizione, offre un mix affascinante di storia e modernità.
+                    </p>
+                <h4>Cosa vedere a Torino?</h4>
+                    <p>1. Mole Antonelliana: Icona di Torino, ospita il Museo Nazionale del Cinema con una vista panoramica sulla città.
+                    </p>
+                    <p>2. Piazza Castello: Il cuore del centro storico con Palazzo Reale e Palazzo Madama.
+                    </p>
+                    <p>3. Cappella della Sindone: Custodisce la Sacra Sindone, un importante luogo di devozione.
+                    </p>
+                    <p>4. Museo Egizio: Uno dei più grandi e importanti musei egizi al mondo.
+                    </p>
+                    <p>5. Basilica di Superga: Situata sulla collina, offre una vista panoramica e ospita le tombe dei Savoia.
+                    </p>
+            </div> 
+        </div>
+    </section>
+</body>
+
+<footer class="footer">
+        <p> Contattaci tramite il numero 329 417 5783, oppure scrivi all'indirizzo ilariafracesca@gmail.com per maggiori informazioni</p>
+        <p> Copyright - Tieni Ilaria, Tornaghi Francesca</p>
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+    
+    
+    <script>
+        $(document).ready(function(){
+    
+            $(".header_icon-bar").click(function(e){
+    
+                $(".header_menu").toggleClass('is-open');
+                e.preventDefault();
+            })
+    
+        });
+    
+    </script>  
