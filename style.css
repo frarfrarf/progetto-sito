@@ -53,7 +53,7 @@ body{background: grey;}
 /* cover */
 
 /* banner */
-.banner{background: #fff; height: 50%;}
+.banner{background:  grey; height: 50%;}
 .banner_image{width: 30%; float: left; height: 100%;
     background-image: url("https://i.pinimg.com/564x/9f/06/31/9f06312cb0c21c13076285529fd06e52.jpg");
     background-size: cover;
@@ -92,13 +92,17 @@ body{background: grey;}
     height: 100%;
     width:100%;
     flex: column;
-    
+    text-align: center
 }
 
 .card_imagee{
     padding: 130px;
     margin: 0px 0px;
+    border-image-width: auto;
+}
 
+.card_copy{
+    text-align: left
 }
 
 /* cards */
@@ -107,29 +111,13 @@ body{background: grey;}
     text-align: center 
 }
 .intro_lista {
-    background: rgb(172, 168, 168) 
+    background: rgb(172, 168, 168); padding: 30px
 }
 
+/* footer */
+.footer{background: #333; padding: 30px ; color: #fff; margin-top: 40px;}
+/* footer */
 
-@media (max-width:767px){
-
-
-    .header{position: fixed; z-index: 100; width: 100%;}
-    .header_icon-bar{display: block;}
-    .header_menu{width: 100%; height: 0px; overflow: hidden;}
-    .header_menu_item{display: block;}
-    .is-open{height:300px ; overflow: auto;}
-
-    /* .cover{height: 100%;}
-
-    .card{width: 90%;margin: 5%}
-
-    .banner{height: 100%;}
-    .banner_image{width: 100%;height: 50%;}
-    .banner_copy{width: 100%; height: 50%;} */
-
-
-}
 
 .clearfix:after {
     visibility: hidden;
@@ -151,3 +139,31 @@ body{background: grey;}
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
+
+  /* tablet  */
+@media (max-width:998px){
+    .banner_image{width: 50%;height: 100%;}
+    .banner_copy{width: 50%; height: 100%;}
+
+}
+
+/* e smartphone */
+@media (max-width:767px){
+
+
+    .header{position: fixed; z-index: 100; width: 100%;}
+    .header_icon-bar{display: block;}
+    .header_menu{width: 100%; height: 0px; overflow: hidden;}
+    .header_menu_item{display: block;}
+    .is-open{height:300px ; overflow: auto;}
+
+    .cover{height: 100%;}
+
+    .card{width: 90%;margin: 5%}
+
+    .banner{height: 100%;}
+    .banner_image{width: 100%;height: 50%;}
+    .banner_copy{width: 100%; height: 50%;}
+
+
+}
