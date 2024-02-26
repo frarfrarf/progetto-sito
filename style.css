@@ -135,7 +135,8 @@ body{background: grey;}
     font-size: 0;
     content: " ";
     clear: both;
-    height: 0;
+    height: 20
+;
   }
   .clearfix { display: inline-block; }
   /* start commented backslash hack \*/
@@ -167,7 +168,8 @@ body{background: grey;}
     .header_menu_item{display: block;}
     .is-open{height:300px ; overflow: auto;}
 
-    .cover{height: 100%;}
+    .cover{height: 100%; width: 100%;}
+
 
     .card{width: 90%;margin: 5%}
 
